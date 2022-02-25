@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = provider
+build_property.ProjectDir = /Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/src/

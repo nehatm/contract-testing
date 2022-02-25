@@ -1,0 +1,13 @@
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/bin/Debug/netcoreapp3.1/consumer.deps.json
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/bin/Debug/netcoreapp3.1/consumer.runtimeconfig.json
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/bin/Debug/netcoreapp3.1/consumer.runtimeconfig.dev.json
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/bin/Debug/netcoreapp3.1/consumer.dll
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/bin/Debug/netcoreapp3.1/consumer.pdb
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/obj/Debug/netcoreapp3.1/consumer.csproj.AssemblyReference.cache
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/obj/Debug/netcoreapp3.1/consumer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/obj/Debug/netcoreapp3.1/consumer.AssemblyInfoInputs.cache
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/obj/Debug/netcoreapp3.1/consumer.AssemblyInfo.cs
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/obj/Debug/netcoreapp3.1/consumer.csproj.CoreCompileInputs.cache
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/obj/Debug/netcoreapp3.1/consumer.dll
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/obj/Debug/netcoreapp3.1/consumer.pdb
+/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Consumer/src/obj/Debug/netcoreapp3.1/consumer.genruntimeconfig.cache

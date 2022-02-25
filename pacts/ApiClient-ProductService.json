@@ -1,0 +1,147 @@
+{
+  "consumer": {
+    "name": "ApiClient"
+  },
+  "interactions": [
+    {
+      "description": "A valid request for all products",
+      "providerStates": [
+        {
+          "name": "no products exist"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/api/products"
+      },
+      "response": {
+        "body": [],
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "A valid request for a product",
+      "providerStates": [
+        {
+          "name": "product with ID 10 exists"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/api/products/10"
+      },
+      "response": {
+        "body": {
+          "id": 10,
+          "name": "28 Degrees",
+          "type": "CREDIT_CARD",
+          "version": "v1"
+        },
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "A valid request for a product",
+      "providerStates": [
+        {
+          "name": "product with ID 11 does not exist"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/api/products/11"
+      },
+      "response": {
+        "status": 404
+      }
+    },
+    {
+      "description": "A valid request for all products",
+      "providerStates": [
+        {
+          "name": "products exist"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/api/products"
+      },
+      "response": {
+        "body": [
+          {
+            "id": 9,
+            "name": "GEM Visa",
+            "type": "CREDIT_CARD",
+            "version": "v2"
+          },
+          {
+            "id": 10,
+            "name": "28 Degrees",
+            "type": "CREDIT_CARD",
+            "version": "v1"
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {}
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pactRust": {
+      "version": "0.9.5"
+    },
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  },
+  "provider": {
+    "name": "ProductService"
+  }
+}

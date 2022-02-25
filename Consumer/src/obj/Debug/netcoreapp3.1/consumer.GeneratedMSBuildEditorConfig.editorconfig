@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = consumer
+build_property.ProjectDir = /Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/contract-testing/Consumer/src/

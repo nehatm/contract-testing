@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/tests/tests.csproj": {}
+  },
+  "projects": {
+    "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/src/provider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/src/provider.csproj",
+        "projectName": "provider",
+        "projectPath": "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/src/provider.csproj",
+        "packagesPath": "/Users/neha/.nuget/packages/",
+        "outputPath": "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/NuGet.Config",
+          "/Users/neha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pactfoundation.jfrog.io/artifactory/api/nuget/v3/default-nuget-local": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/tests/tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/tests/tests.csproj",
+        "projectName": "tests",
+        "projectPath": "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/tests/tests.csproj",
+        "packagesPath": "/Users/neha/.nuget/packages/",
+        "outputPath": "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/NuGet.Config",
+          "/Users/neha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pactfoundation.jfrog.io/artifactory/api/nuget/v3/default-nuget-local": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/src/provider.csproj": {
+                "projectPath": "/Users/neha/Documents/Neha/Project/devops/ClonedRepositories/Pact-POC/pact-workshop-dotnet-core-v3/Provider/src/provider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "PactNet": {
+              "target": "Package",
+              "version": "[4.0.0-beta, )"
+            },
+            "PactNet.Native": {
+              "target": "Package",
+              "version": "[0.1.0-beta, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
