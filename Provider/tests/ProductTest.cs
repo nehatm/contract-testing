@@ -15,7 +15,8 @@ namespace tests
     public class ProductTest
     {
         private string _pactServiceUri = "http://127.0.0.1:9001";
-        private string _baseUri = "https://ps.pactflow.io/pacts";
+        //private string _baseUri = "https://ps.pactflow.io/pacts";
+        private string _baseUri = "https://ps.pactflow.io";
         private ITestOutputHelper _outputHelper { get; }
 
         public ProductTest(ITestOutputHelper output)
@@ -51,9 +52,10 @@ namespace tests
                     .WithProviderStateUrl(new Uri($"{_pactServiceUri}/provider-states"))
                     .ServiceProvider("ProductService", new Uri(_pactServiceUri))
                     .HonoursPactWith("ApiClient")
-                    // .FromPactBroker(new Uri($"{_baseUri}"),
+                    .FromPactBroker(new Uri($"{_baseUri}"))
                     //     uriOptions: new PactUriOptions(System.Environment.GetEnvironmentVariable("PACT_BROKER_TOKEN")))
-                    .FromPactUri(new Uri($"{_baseUri}/provider/ProductService/consumer/ApiClient/version/1.0.0"))
+                    //.FromPactUri(new Uri($"{_baseUri}/provider/ProductService/consumer/ApiClient/latest/master"))
+                    .WithPublishedResults("1.0.1")
                     /*.FromPactBroker(new Uri($"{_baseUri}"), 
                         uriOptions: new PactUriOptions(System.Environment.GetEnvironmentVariable("PACT_BROKER_TOKEN")))*/
                         //consumerVersion: new List<string> { "1.0.0"})
